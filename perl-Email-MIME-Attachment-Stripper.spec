@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	MIME-Attachment-Stripper
-Summary:	Email::MIME::Attachment::Stripper - Strip the attachments from a mail
+Summary:	Email::MIME::Attachment::Stripper - strip the attachments from a mail
 Summary(pl):	Email::MIME::Attachment::Stripper - usuwanie za³±czników z listów
 Name:		perl-Email-MIME-Attachment-Stripper
 Version:	1.3
