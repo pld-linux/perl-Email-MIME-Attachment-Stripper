@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-Attachment-Stripper
 Summary:	Email::MIME::Attachment::Stripper - strip the attachments from a mail
-Summary(pl):	Email::MIME::Attachment::Stripper - usuwanie za³±czników z listów
+Summary(pl.UTF-8):   Email::MIME::Attachment::Stripper - usuwanie zaÅ‚Ä…cznikÃ³w z listÃ³w
 Name:		perl-Email-MIME-Attachment-Stripper
 Version:	1.31
 Release:	1
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Given a Email::MIME object, detach all attachments from the message.
 These are then available separately.
 
-%description -l pl
-Po przekazaniu obiektu Email::MIME, klasa od³±cza z listu wszystkie
-za³±czniki. S± one pó¼niej dostêpne osobno.
+%description -l pl.UTF-8
+Po przekazaniu obiektu Email::MIME, klasa odÅ‚Ä…cza z listu wszystkie
+zaÅ‚Ä…czniki. SÄ… one pÃ³Åºniej dostÄ™pne osobno.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
