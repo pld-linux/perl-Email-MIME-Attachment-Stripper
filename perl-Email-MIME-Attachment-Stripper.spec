@@ -57,5 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Email/MIME/Attachment
 %{perl_vendorlib}/Email/MIME/Attachment/*.pm
 %{_mandir}/man3/*
