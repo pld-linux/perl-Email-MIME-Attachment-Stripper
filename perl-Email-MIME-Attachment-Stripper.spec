@@ -8,13 +8,13 @@
 Summary:	Email::MIME::Attachment::Stripper - strip the attachments from a mail
 Summary(pl.UTF-8):	Email::MIME::Attachment::Stripper - usuwanie załączników z listów
 Name:		perl-Email-MIME-Attachment-Stripper
-Version:	1.31
-Release:	2
+Version:	1.314
+Release:	1
 # same as perl-Mail-Message-Attachment-Stripper
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6a9235599bd42c0f79239a89edb36d5f
+# Source0-md5:	ff79e105a6420bb43939f6f08b29b4be
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
