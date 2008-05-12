@@ -11,10 +11,11 @@ Name:		perl-Email-MIME-Attachment-Stripper
 Version:	1.314
 Release:	1
 # same as perl-Mail-Message-Attachment-Stripper
-License:	unknown
+License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ff79e105a6420bb43939f6f08b29b4be
+URL:		http://search.cpan.org/dist/Email-MIME-Attachment-Stripper/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
